@@ -11,9 +11,9 @@
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Docs on NUXT</a>
         <a href="https://github.com/ericop/identify-tree-by-leaf" target="_blank" class="button--grey">This project on GitHub</a>
-        <nuxt-link to="/conifer" class="button--green">conifer</nuxt-link>
-        <nuxt-link to="/start" class="button--green">start</nuxt-link>
-        <nuxt-link to="/about" class="button--green">about</nuxt-link>
+        <nuxt-link to="/identify-tree-by-leaf/conifer" class="button--green">conifer</nuxt-link>
+        <nuxt-link to="/identify-tree-by-leaf/start" class="button--green">start</nuxt-link>
+        <nuxt-link to="/identify-tree-by-leaf/about" class="button--green">about</nuxt-link>
       </div>
       <transition name="slide-fade">
         <router-view></router-view>
