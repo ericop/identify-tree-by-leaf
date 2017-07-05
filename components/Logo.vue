@@ -18,7 +18,6 @@
   overflow: y;
   height: 180px;
   width: 245px;
-  border: 1px dashed #35495E;
   margin: 1.5rem;
 }
 
