@@ -11,17 +11,14 @@
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Docs on NUXT</a>
         <a href="https://github.com/ericop/identify-tree-by-leaf" target="_blank" class="button--grey">This project on GitHub</a>
+        <nuxt-link to="/conifer" class="button--green">conifer</nuxt-link>
+        <nuxt-link to="/start" class="button--green">start</nuxt-link>
+        <nuxt-link to="/about" class="button--green">about</nuxt-link>
       </div>
-      <h2>We will use these images as a guide</h2>
-
-      <a title="By derivative work: McSush (talk) Leaf_morphology_no_title.png: User: Debivort (Leaf_morphology_no_title.png) [GFDL (<a href=&quot;http://www.gnu.org/copyleft/fdl.html&quot;>http://www.gnu.org/copyleft/fdl.html</a>) or CC-BY-SA-3.0 (<a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;>http://creativecommons.org/licenses/by-sa/3.0/</a>)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ALeaf_morphology.svg">
-        <img width="838" alt="Leaf morphology" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Leaf_morphology.svg/838px-Leaf_morphology.svg.png" />
-      </a>
-      <p>
-        Leaf morphology images from
-        <a title="By derivative work: McSush (talk) Leaf_morphology_no_title.png: User: Debivort (Leaf_morphology_no_title.png) [GFDL (<a href=&quot;http://www.gnu.org/copyleft/fdl.html&quot;>http://www.gnu.org/copyleft/fdl.html</a>) or CC-BY-SA-3.0 (<a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;>http://creativecommons.org/licenses/by-sa/3.0/</a>)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ALeaf_morphology.svg">wikimedia ALeaf_morphology.svg (creativecommons)</a>
-      </p>
-    </div>
+      <transition name="slide-fade">
+        <router-view></router-view>
+      </transition>
+      </div>
   </section>
 </template>
 
@@ -31,7 +28,9 @@ import Logo from '~components/Logo.vue'
 export default {
   components: {
     Logo
-  }
+  },
+  // transition: 'slide-fade'
+  transition: 'page'
 }
 </script>
 
@@ -64,5 +63,9 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.button--green{
+  margin: 1rem;
 }
 </style>
