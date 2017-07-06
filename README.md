@@ -1,6 +1,8 @@
-# identify-tree-by-leaf
+# Identify Tree by Leaf
 
-> guide to help you identify trees in by their leaves
+![image](https://github.com/ericop/identify-tree-by-leaf/blob/master/static/favicon.png)
+
+> A guide to help you identify trees by their leaves
 
 ## Build Setup
 
