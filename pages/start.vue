@@ -3,8 +3,8 @@
     <div>
       <div class="links">
         <h2>First, pick:</h2>
-        <nuxt-link to="/identify-tree-by-leaf/conifer" class="button--green">conifer</nuxt-link>
-        <nuxt-link to="/identify-tree-by-leaf/broad-leaf" class="button--green">broad-leaf</nuxt-link>
+        <nuxt-link to="/conifer" class="button--green">conifer</nuxt-link>
+        <nuxt-link to="/broad-leaf" class="button--green">broad-leaf</nuxt-link>
       </div>
     </div>
   </section>
@@ -51,7 +51,4 @@ export default {
   padding-top: 15px;
 }
 
-.button--green{
-  margin: 1rem;
-}
 </style>

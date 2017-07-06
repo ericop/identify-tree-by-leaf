@@ -5,8 +5,8 @@
         Board-Leaf
       </h2>
       <div class="links">
-        <nuxt-link to="/conifer/sugar-maple" class="button--green">Sugar Maple (router test)</nuxt-link>
-        <nuxt-link to="/board-leaf/sugar-maple" class="button--green">Sugar Maple (router test)</nuxt-link>
+        <nuxt-link to="/start/" class="button--grey">start (back)</nuxt-link>
+        <nuxt-link to="/broad-leaf/sugar-maple" class="button--green">Sugar Maple (router test)</nuxt-link>
       </div>
 
     </div>

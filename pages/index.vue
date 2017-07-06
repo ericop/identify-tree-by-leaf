@@ -6,14 +6,10 @@
         Identify Tree by Leaf
       </h1>
       <h2 class="subtitle">
-        An EricOP Universal Vue.js App (NUXT)
+        An EricOP Universal Vue.js App (<a href="https://nuxtjs.org/" target="_blank" class="button--green">https://nuxtjs.org/</a>)
       </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Docs on NUXT</a>
-        <a href="https://github.com/ericop/identify-tree-by-leaf" target="_blank" class="button--grey">This project on GitHub</a>
-        <nuxt-link to="/identify-tree-by-leaf/conifer" class="button--green">conifer</nuxt-link>
-        <nuxt-link to="/identify-tree-by-leaf/start" class="button--green">start</nuxt-link>
-        <nuxt-link to="/identify-tree-by-leaf/about" class="button--green">about</nuxt-link>
+      <div class="links subtitle">
+        <nuxt-link to="/start" class="button--green">Start</nuxt-link>
       </div>
       <transition name="slide-fade">
         <router-view></router-view>
@@ -65,7 +61,4 @@ export default {
   padding-top: 15px;
 }
 
-.button--green{
-  margin: 1rem;
-}
 </style>

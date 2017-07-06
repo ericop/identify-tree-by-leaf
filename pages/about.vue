@@ -51,7 +51,4 @@ export default {
   padding-top: 15px;
 }
 
-.button--green{
-  margin: 1rem;
-}
 </style>

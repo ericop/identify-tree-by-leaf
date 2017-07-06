@@ -1,23 +1,12 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
-      <h1 class="title">
-        Identify Tree by Leaf
-      </h1>
-        <transition name="slide-fade">
-        <h2 class="subtitle">
-          Broad-Leaf | Sugar Maple
-        </h2>
-        </transition>
+      <h2 class="subtitle">
+        Broad-Leaf | Sugar Maple
+      </h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Docs on NUXT</a>
-        <a href="https://github.com/ericop/identify-tree-by-leaf" target="_blank" class="button--grey">This project on GitHub</a>
-        <nuxt-link to="/identify-tree-by-leaf/conifer" class="button--green">conifer (router test)</nuxt-link>
-        <nuxt-link to="/identify-tree-by-leaf/conifer/arborvitae" class="button--green">Arborvitae (router test)</nuxt-link>
-        <nuxt-link to="/identify-tree-by-leaf/conifer/redcedar" class="button--green">Red cedar (router test)</nuxt-link>
+        <nuxt-link to="/broad-leaf" class="button--grey">broad-leaf (back)</nuxt-link>
       </div>
-
     </div>
   </section>
 </template>

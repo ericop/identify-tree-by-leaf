@@ -1,20 +1,31 @@
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
-.slide-fade-enter-active {
-  transition: all .5s ease;
-}
-.slide-fade-leave-active {
-  transition: all .9s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-.slide-fade-enter, .slide-fade-leave-to
-/* .slide-fade-leave-active for <2.1.8 */ {
-  transform: translateX(100px);
-  opacity: 0;
+
+.page-enter-active {
+  transition: all .2s ease;
 }
 
-.page-enter-active, .page-leave-active {
+.page-leave-active {
+  transition: all .15s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.page-enter
+{
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.page-leave-to
+/* .slide-fade-leave-active for <2.1.8 */
+{
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+
+/*.page-enter-active, .page-leave-active {
   transition: opacity .5s;
 }
 .page-enter, .page-leave-to {
   opacity: 0;
-}
+}*/
