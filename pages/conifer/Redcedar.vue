@@ -1,23 +1,32 @@
 <template>
   <section class="container">
     <div>
-        <h2 class="subtitle">
-          Conifer | Red Cedar
-        </h2>
+      <h2 class="subtitle">
+        {{subtitle}}
+      </h2>
+      <div v-html="mainImage"></div>
       <div class="links">
-        <nuxt-link to="/conifer" class="button--grey">conifer (back)</nuxt-link>
+        <nuxt-link to="/conifer" class="button--grey">confier (back)</nuxt-link>
       </div>
-
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~components/Logo.vue'
+// import axios from 'axios'
 
 export default {
   components: {
     Logo
+  },
+  data: function () {
+    return {
+      subtitle: 'Confier | Red Cedar',
+      name: 'sugar maple',
+      mainImage: '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2014-05-13_08_32_55_Eastern_Red_Cedar_at_South_Riding_Golf_Club_in_South_Riding%2C_Virginia.JPG/220px-2014-05-13_08_32_55_Eastern_Red_Cedar_at_South_Riding_Golf_Club_in_South_Riding%2C_Virginia.JPG">',
+      mainContent: '<span>start spot</span>'
+    }
   }
 }
 </script>

@@ -1,24 +1,32 @@
 <template>
   <section class="container">
-    <!--<transition name="slide-fade">-->
     <div>
       <h2 class="subtitle">
-        Conifer | Arborvitae
+        {{subtitle}}
       </h2>
+      <div v-html="mainImage"></div>
       <div class="links">
-        <nuxt-link to="/conifer" class="button--grey">conifer (back)</nuxt-link>
+        <nuxt-link to="/conifer" class="button--grey">confier (back)</nuxt-link>
       </div>
     </div>
-    <!--</transition>-->
   </section>
 </template>
 
 <script>
 import Logo from '~components/Logo.vue'
+// import axios from 'axios'
 
 export default {
   components: {
     Logo
+  },
+  data: function () {
+    return {
+      subtitle: 'Confier | Arborvitae',
+      name: 'sugar maple',
+      mainImage: '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Thuja_standishii.jpg/240px-Thuja_standishii.jpg">',
+      mainContent: '<span>start spot</span>'
+    }
   }
 }
 </script>

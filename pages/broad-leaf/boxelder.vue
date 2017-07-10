@@ -2,8 +2,9 @@
   <section class="container">
     <div>
       <h2 class="subtitle">
-        Broad-Leaf | Boxelder
+        {{subtitle}}
       </h2>
+      <div v-html="mainImage"></div>
       <div class="links">
         <nuxt-link to="/broad-leaf" class="button--grey">broad-leaf (back)</nuxt-link>
       </div>
@@ -13,10 +14,19 @@
 
 <script>
 import Logo from '~components/Logo.vue'
+// import axios from 'axios'
 
 export default {
   components: {
     Logo
+  },
+  data: function () {
+    return {
+      subtitle: 'Broad-Leaf | Box Elder',
+      name: 'sugar maple',
+      mainImage: '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Acnegundo.jpg/320px-Acnegundo.jpg">',
+      mainContent: '<span>start spot</span>'
+    }
   }
 }
 </script>
