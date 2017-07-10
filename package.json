@@ -1,10 +1,11 @@
 {
   "name": "identify-tree-by-leaf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "guide to help you identify trees in by their leaves",
   "author": "ericop",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.2",
     "nuxt": "latest"
   },
   "scripts": {

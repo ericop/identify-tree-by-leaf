@@ -2,14 +2,11 @@
   <section class="container">
     <div>
       <h2 class="subtitle">
-        Board-Leaf
+        Broad-Leaf | Boxelder
       </h2>
       <div class="links">
-        <nuxt-link to="/start/" class="button--grey">start (back)</nuxt-link>
-        <nuxt-link to="/broad-leaf/compound" class="button--green">Compound</nuxt-link>
-        <nuxt-link to="/broad-leaf/simple" class="button--green">Simple</nuxt-link>
+        <nuxt-link to="/broad-leaf" class="button--grey">broad-leaf (back)</nuxt-link>
       </div>
-
     </div>
   </section>
 </template>

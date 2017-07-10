@@ -2,12 +2,11 @@
   <section class="container">
     <div>
       <h2 class="subtitle">
-        Board-Leaf
+        {{subtitle}}
       </h2>
       <div class="links">
-        <nuxt-link to="/start/" class="button--grey">start (back)</nuxt-link>
-        <nuxt-link to="/broad-leaf/compound" class="button--green">Compound</nuxt-link>
-        <nuxt-link to="/broad-leaf/simple" class="button--green">Simple</nuxt-link>
+        <nuxt-link to="/broad-leaf/" class="button--grey">Broad-leaf (back)</nuxt-link>
+        <nuxt-link to="/broad-leaf/sugar-maple" class="button--green">Sugar Maple (router test)</nuxt-link>
       </div>
 
     </div>
@@ -18,6 +17,11 @@
 import Logo from '~components/Logo.vue'
 
 export default {
+  data: function () {
+    return {
+      subtitle: 'Board-Leaf | Simple'
+    }
+  },
   components: {
     Logo
   }
