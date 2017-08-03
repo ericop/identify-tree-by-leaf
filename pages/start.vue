@@ -1,6 +1,10 @@
 <template>
   <section class="container">
     <div>
+      <h2 class="subtitle">
+        Start
+      </h2>
+      <div class="main-image"><img src="http://uptreeid.com/KeyLeafOnly/PICS/Sfwd-Hdwd.jpg"/></div>
       <div class="links">
         <h2>First, pick:</h2>
         <nuxt-link to="/conifer" class="button--green">conifer</nuxt-link>
@@ -50,5 +54,4 @@ export default {
 .links {
   padding-top: 15px;
 }
-
 </style>

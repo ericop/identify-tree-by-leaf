@@ -4,6 +4,7 @@
       <h2 class="subtitle">
         Board-Leaf
       </h2>
+      <div class="main-image"><img src="http://uptreeid.com/PICSleafonly/DefSimpCpd.jpg"/></div>
       <div class="links">
         <nuxt-link to="/start/" class="button--grey">start (back)</nuxt-link>
         <nuxt-link to="/broad-leaf/compound" class="button--green">Compound</nuxt-link>

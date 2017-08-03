@@ -4,6 +4,7 @@
       <h2 class="subtitle">
         Conifer
       </h2>
+      <div class="main-image"><img src="http://uptreeid.com/KeyLeafOnly/PICS/NeedleArrange.jpg"/></div>
       <div class="links">
         <nuxt-link to="/start" class="button--grey">start (back)</nuxt-link>
         <nuxt-link to="/conifer/arborvitae" class="button--green">Arborvitae (router test)</nuxt-link>

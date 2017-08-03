@@ -4,7 +4,9 @@
       <h2 class="subtitle">
         {{subtitle}}
       </h2>
-      <div v-html="mainImage"></div>
+      <div class="main-image" v-html="mainImage"></div>
+      <div class="main-image"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Thuja_standishii.jpg/240px-Thuja_standishii.jpg"/></div>
+
       <div class="links">
         <nuxt-link to="/conifer" class="button--grey">confier (back)</nuxt-link>
       </div>
